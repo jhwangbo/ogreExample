@@ -1,0 +1,4 @@
+LIBRARY Plugin_AviSaver
+EXPORTS	
+	dllStartPlugin
+	dllStopPlugin

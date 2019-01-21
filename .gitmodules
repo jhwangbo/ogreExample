@@ -1,0 +1,6 @@
+[submodule "third-party/ogre-imgui"]
+	path = third-party/ogre-imgui
+	url = https://github.com/OGRECave/ogre-imgui.git
+[submodule "third-party/ogre-assimp"]
+	path = third-party/ogre-assimp
+	url = https://github.com/OGRECave/ogre-assimp.git

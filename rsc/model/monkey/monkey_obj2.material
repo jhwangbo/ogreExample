@@ -1,0 +1,31 @@
+import rsPBR from rsPBR.material
+
+material monkey : rsPBR
+{
+    technique
+    {
+        pass
+        {
+            texture_unit Albedo
+            {
+                texture monkey_Color.png
+            }
+            texture_unit Normal
+            {
+                texture monkey_Normal.png
+            }
+			texture_unit Emissive
+			{
+				texture monkey_Emissive.png
+			}
+			texture_unit MetalRoughness
+			{
+				texture monkey_MetalRoughness.png
+			}
+			texture_unit AmbientOcclusion
+			{
+				texture monkey_AO.png
+			}
+        }
+    }
+}

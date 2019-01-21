@@ -1,0 +1,42 @@
+Info,  T0: Logging asses
+Info,  T0: Load /home/jhwangbo/workspace/ogreTest/rsc/model/monkey/monkey.obj
+Debug, T0: Assimp 4.1.0 amd64 gcc debug shared singlethreaded
+Info,  T0: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T0: Import root directory is '/home/jhwangbo/workspace/ogreTest/rsc/model/monkey/'
+Info,  T0: Entering post processing pipeline
+Debug, T0: FlipUVsProcess begin
+Debug, T0: FlipUVsProcess finished
+Debug, T0: RemoveRedundantMatsProcess begin
+Debug, T0: RemoveRedundantMatsProcess finished 
+Debug, T0: FindDegeneratesProcess begin
+Debug, T0: FindDegeneratesProcess finished
+Debug, T0: GenUVCoordsProcess begin
+Debug, T0: GenUVCoordsProcess finished
+Debug, T0: TransformUVCoordsProcess begin
+Debug, T0: TransformUVCoordsProcess finished
+Debug, T0: TriangulateProcess begin
+Debug, T0: TriangulateProcess finished. There was nothing to be done.
+Debug, T0: SortByPTypeProcess begin
+Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T0: SortByPTypeProcess finished
+Debug, T0: FindInvalidDataProcess begin
+Debug, T0: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T0: SplitLargeMeshesProcess_Triangle begin
+Debug, T0: SplitLargeMeshesProcess_Triangle finished. There was nothing to do
+Debug, T0: Generate spatially-sorted vertex cache
+Debug, T0: GenVertexNormalsProcess begin
+Debug, T0: GenVertexNormalsProcess finished. Normals are already there
+Debug, T0: CalcTangentsProcess begin
+Info,  T0: CalcTangentsProcess finished. Tangents have been calculated
+Debug, T0: JoinVerticesProcess begin
+Debug, T0: Mesh 0 (Suzanne) | Verts in: 47232 out: 17785 | ~62.3454%
+Info,  T0: JoinVerticesProcess finished | Verts in: 47232 out: 17785 | ~62.3%
+Debug, T0: SplitLargeMeshesProcess_Vertex begin
+Debug, T0: SplitLargeMeshesProcess_Vertex finished. There was nothing to do
+Debug, T0: LimitBoneWeightsProcess begin
+Debug, T0: LimitBoneWeightsProcess end
+Debug, T0: ImproveCacheLocalityProcess begin
+Debug, T0: Mesh 0 | ACMR in: 1.951283 out: 1.281250 | ~34.3%
+Info,  T0: Cache relevant are 1 meshes (15744 faces). Average output ACMR is 1.281250
+Debug, T0: ImproveCacheLocalityProcess finished. 
+Info,  T0: Leaving post processing pipeline

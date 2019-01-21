@@ -1,0 +1,9 @@
+/home/jhwangbo/software/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=/usr/bin/gcc-7 -DCMAKE_CXX_COMPILER=/usr/bin/g++-7 -G "CodeBlocks - Unix Makefiles" /home/jhwangbo/workspace/ogreTest
+-- Found OGRE
+--   static     : OFF
+--   components : Bites;HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_CgProgramManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_FreeImage
+--   media      : /usr/local/share/OGRE/Media
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jhwangbo/workspace/ogreTest/cmake-build-release

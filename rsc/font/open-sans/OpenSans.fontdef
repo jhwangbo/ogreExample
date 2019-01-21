@@ -1,0 +1,7 @@
+OpenSans
+{
+	type 		truetype
+	source 		OpenSans-Bold.ttf
+	size 		32
+	resolution 	96
+}
