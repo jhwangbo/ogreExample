@@ -1,8 +1,8 @@
-/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles/install/strip.dir
-/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles/install/local.dir
-/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles/ogreTest.dir
-/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles/edit_cache.dir
-/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles/raisim_visualizer.dir
-/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles/install.dir
-/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles/rebuild_cache.dir
-/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles/list_install_components.dir
+/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles/install/strip.dir
+/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles/install/local.dir
+/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles/ogreTest.dir
+/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles/raisim_visualizer.dir
+/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles/install.dir
+/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles/list_install_components.dir

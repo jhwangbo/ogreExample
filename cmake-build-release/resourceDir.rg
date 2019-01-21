@@ -1,1 +1,1 @@
-/home/jhwangbo/workspace/ogreTest/rsc
+/home/jhwangbo/workspace/raisimOgreVisualizer/rsc

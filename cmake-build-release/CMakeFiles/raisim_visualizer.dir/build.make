@@ -43,10 +43,10 @@ RM = /home/jhwangbo/software/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhwangbo/workspace/ogreTest
+CMAKE_SOURCE_DIR = /home/jhwangbo/workspace/raisimOgreVisualizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhwangbo/workspace/ogreTest/cmake-build-release
+CMAKE_BINARY_DIR = /home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release
 
 # Include any dependencies generated for this target.
 include CMakeFiles/raisim_visualizer.dir/depend.make
@@ -59,107 +59,107 @@ include CMakeFiles/raisim_visualizer.dir/flags.make
 
 CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.o: CMakeFiles/raisim_visualizer.dir/flags.make
 CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.o: ../src/RaiSimVisualizerOgre.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.o -c /home/jhwangbo/workspace/ogreTest/src/RaiSimVisualizerOgre.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.o -c /home/jhwangbo/workspace/raisimOgreVisualizer/src/RaiSimVisualizerOgre.cpp
 
 CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/ogreTest/src/RaiSimVisualizerOgre.cpp > CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/raisimOgreVisualizer/src/RaiSimVisualizerOgre.cpp > CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.i
 
 CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/ogreTest/src/RaiSimVisualizerOgre.cpp -o CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/raisimOgreVisualizer/src/RaiSimVisualizerOgre.cpp -o CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.s
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.o: CMakeFiles/raisim_visualizer.dir/flags.make
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.o: ../third-party/ogre-imgui/imgui/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.o -c /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.o -c /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui.cpp
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.i
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.s
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.o: CMakeFiles/raisim_visualizer.dir/flags.make
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.o: ../third-party/ogre-imgui/imgui/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.o -c /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.o -c /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui_draw.cpp
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui_draw.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui_draw.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.i
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui_draw.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui_draw.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.s
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.o: CMakeFiles/raisim_visualizer.dir/flags.make
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.o: ../third-party/ogre-imgui/imgui/imgui_widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.o -c /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.o -c /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui_widgets.cpp
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui_widgets.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui_widgets.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.i
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui_widgets.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui_widgets.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.s
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.o: CMakeFiles/raisim_visualizer.dir/flags.make
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.o: ../third-party/ogre-imgui/imgui/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.o -c /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.o -c /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui_demo.cpp
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui_demo.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui_demo.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.i
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/imgui/imgui_demo.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/imgui/imgui_demo.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.s
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.o: CMakeFiles/raisim_visualizer.dir/flags.make
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.o: ../third-party/ogre-imgui/ImguiManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.o -c /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/ImguiManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.o -c /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/ImguiManager.cpp
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/ImguiManager.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/ImguiManager.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.i
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/ImguiManager.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/ImguiManager.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.s
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.o: CMakeFiles/raisim_visualizer.dir/flags.make
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.o: ../third-party/ogre-imgui/ImguiRenderable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.o -c /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/ImguiRenderable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.o -c /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/ImguiRenderable.cpp
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/ImguiRenderable.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/ImguiRenderable.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.i
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/ogreTest/third-party/ogre-imgui/ImguiRenderable.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-imgui/ImguiRenderable.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.s
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.o: CMakeFiles/raisim_visualizer.dir/flags.make
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.o: ../third-party/ogre-assimp/src/AssimpLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.o -c /home/jhwangbo/workspace/ogreTest/third-party/ogre-assimp/src/AssimpLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.o -c /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-assimp/src/AssimpLoader.cpp
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/ogreTest/third-party/ogre-assimp/src/AssimpLoader.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-assimp/src/AssimpLoader.cpp > CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.i
 
 CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/ogreTest/third-party/ogre-assimp/src/AssimpLoader.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhwangbo/workspace/raisimOgreVisualizer/third-party/ogre-assimp/src/AssimpLoader.cpp -o CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.s
 
 # Object files for target raisim_visualizer
 raisim_visualizer_OBJECTS = \
@@ -185,7 +185,7 @@ libraisim_visualizer.a: CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/
 libraisim_visualizer.a: CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.o
 libraisim_visualizer.a: CMakeFiles/raisim_visualizer.dir/build.make
 libraisim_visualizer.a: CMakeFiles/raisim_visualizer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libraisim_visualizer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libraisim_visualizer.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/raisim_visualizer.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raisim_visualizer.dir/link.txt --verbose=$(VERBOSE)
 
@@ -199,6 +199,6 @@ CMakeFiles/raisim_visualizer.dir/clean:
 .PHONY : CMakeFiles/raisim_visualizer.dir/clean
 
 CMakeFiles/raisim_visualizer.dir/depend:
-	cd /home/jhwangbo/workspace/ogreTest/cmake-build-release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jhwangbo/workspace/ogreTest /home/jhwangbo/workspace/ogreTest /home/jhwangbo/workspace/ogreTest/cmake-build-release /home/jhwangbo/workspace/ogreTest/cmake-build-release /home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles/raisim_visualizer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jhwangbo/workspace/raisimOgreVisualizer /home/jhwangbo/workspace/raisimOgreVisualizer /home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release /home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release /home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles/raisim_visualizer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/raisim_visualizer.dir/depend
 

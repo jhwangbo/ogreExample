@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-project(ogreTest)
+project(raisimOgreVisualizer)
 
 set(CMAKE_CXX_STANDARD 14)
 list(APPEND CMAKE_MODULE_PATH "/usr/share/OGRE/cmake/modules" CACHE STRING "Modules for CMake" FORCE)

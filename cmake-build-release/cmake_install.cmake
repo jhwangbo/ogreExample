@@ -1,4 +1,4 @@
-# Install script for directory: /home/jhwangbo/workspace/ogreTest
+# Install script for directory: /home/jhwangbo/workspace/raisimOgreVisualizer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jhwangbo/workspace/ogreTest/cmake-build-release/resourceDir.rg")
+   "/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/resourceDir.rg")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jhwangbo/workspace/ogreTest/cmake-build-release" TYPE FILE FILES "/home/jhwangbo/workspace/ogreTest/cmake-build-release/resourceDir.rg")
+file(INSTALL DESTINATION "/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release" TYPE FILE FILES "/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/resourceDir.rg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jhwangbo/workspace/ogreTest/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

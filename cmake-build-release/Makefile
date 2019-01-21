@@ -48,10 +48,10 @@ RM = /home/jhwangbo/software/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhwangbo/workspace/ogreTest
+CMAKE_SOURCE_DIR = /home/jhwangbo/workspace/raisimOgreVisualizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhwangbo/workspace/ogreTest/cmake-build-release
+CMAKE_BINARY_DIR = /home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles /home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles /home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhwangbo/workspace/ogreTest/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhwangbo/workspace/raisimOgreVisualizer/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -14,26 +14,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d90a5691-4261-4313-835f-cbadd421ef87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/raisim/RaiSimVisualizerOgre.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourceDir.rg.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsc/font/open-sans/OpenSans.fontdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsc/model/monkey/monkey_obj2.material" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsc/pbr/pbr-frag.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsc/pbr/pbr-vert.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsc/pbr/pbr.program" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsc/pbr/rsPBR.material" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RaiSimVisualizerOgre.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third-party/SaveAvi/include/AVIGenerator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third-party/SaveAvi/include/OgreAviSaver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third-party/SaveAvi/misc/OgreAviSaver.def" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third-party/SaveAvi/scripts/Plugin_SaveAvi.vcproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third-party/SaveAvi/scripts/Plugin_SaveAvi.vcproj.ASSAF.Asaf.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third-party/SaveAvi/src/AVIGenerator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third-party/SaveAvi/src/OgreAviSaver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third-party/SaveAvi/src/OgreAviSaverDll.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third-party/ogre-assimp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third-party/ogre-imgui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ogreTest.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/src/RaiSimVisualizerOgre.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/third-party/ogre-assimp/src/AssimpLoader.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiManager.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/ImguiRenderable.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_demo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_draw.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisim_visualizer.dir/third-party/ogre-imgui/imgui/imgui_widgets.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ogreTest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ogreTest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/resourceDir.rg" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/resourceDir.rg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ogreTest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ogreTest.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ogreTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ogreTest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ogreTest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ogreTest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/raisim_visualizer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/raisim_visualizer.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/raisim_visualizer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/raisim_visualizer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/raisim_visualizer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/raisim_visualizer.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ogreTest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ogreTest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/resourceDir.rg" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/resourceDir.rg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -46,11 +77,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+            <state relative-caret-position="836">
+              <caret line="132" column="35" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
               <folding>
                 <element signature="e#0#1352#0" expanded="true" />
               </folding>
@@ -61,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/include/OGRE/Bites/OgreApplicationContext.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
+            <state relative-caret-position="4407">
               <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
               <folding>
                 <element signature="e#6853#6913#0" expanded="true" />
@@ -73,17 +104,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/include/OGRE/OgreRoot.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="17862">
               <caret line="458" column="50" selection-start-line="458" selection-start-column="50" selection-end-line="458" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="39" selection-end-column="51" />
+            <state relative-caret-position="39">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -115,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/raisim/RaiSimVisualizerOgre.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="2145">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
               <folding>
                 <element signature="e#138#155#0" expanded="true" />
               </folding>
@@ -209,19 +240,19 @@
         <option value="$PROJECT_DIR$/rsc/model/monkey/monkey_obj2.material" />
         <option value="$PROJECT_DIR$/rsc/pbr/rsPBR.material" />
         <option value="$PROJECT_DIR$/third-party/SaveAvi/src/OgreAviSaver.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/RaiSimVisualizerOgre.cpp" />
         <option value="$PROJECT_DIR$/include/raisim/RaiSimVisualizerOgre.hpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1987" />
-    <option name="y" value="43" />
-    <option name="width" value="1833" />
-    <option name="height" value="2117" />
+    <option name="x" value="1161" />
+    <option name="y" value="284" />
+    <option name="width" value="887" />
+    <option name="height" value="796" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -236,31 +267,11 @@
           <expand>
             <path>
               <item name="ogreTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ogreTest" type="462c0819:PsiDirectoryNode" />
+              <item name="raisimOgreVisualizer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ogreTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ogreTest" type="462c0819:PsiDirectoryNode" />
-              <item name="third-party" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ogreTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ogreTest" type="462c0819:PsiDirectoryNode" />
-              <item name="third-party" type="462c0819:PsiDirectoryNode" />
-              <item name="SaveAvi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ogreTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ogreTest" type="462c0819:PsiDirectoryNode" />
-              <item name="third-party" type="462c0819:PsiDirectoryNode" />
-              <item name="SaveAvi" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ogreTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ogreTest" type="462c0819:PsiDirectoryNode" />
-              <item name="third-party" type="462c0819:PsiDirectoryNode" />
-              <item name="SaveAvi" type="462c0819:PsiDirectoryNode" />
+              <item name="raisimOgreVisualizer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -272,7 +283,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ogre-assimp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -344,17 +355,17 @@
       <workItem from="1548013468377" duration="32000" />
       <workItem from="1548013526780" duration="4512000" />
       <workItem from="1548058062858" duration="1183000" />
+      <workItem from="1548065666860" duration="351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122557000" />
+    <option name="totallyTimeSpent" value="122908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="134" y="43" width="3706" height="2117" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17971334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18164279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -696,10 +707,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="39" selection-end-column="51" />
+        <state relative-caret-position="836">
+          <caret line="132" column="35" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#1352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/OGRE/Bites/OgreApplicationContext.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4407">
+          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+          <folding>
+            <element signature="e#6853#6913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/OGRE/OgreRoot.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17862">
+          <caret line="458" column="50" selection-start-line="458" selection-start-column="50" selection-end-line="458" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -719,6 +750,16 @@
           <caret line="93" column="20" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="20" />
           <folding>
             <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/raisim/RaiSimVisualizerOgre.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <element signature="e#138#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -747,40 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/include/OGRE/OgreRoot.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="458" column="50" selection-start-line="458" selection-start-column="50" selection-end-line="458" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/OGRE/Bites/OgreApplicationContext.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-          <folding>
-            <element signature="e#6853#6913#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/raisim/RaiSimVisualizerOgre.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-          <folding>
-            <element signature="e#138#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#1352#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="39">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
