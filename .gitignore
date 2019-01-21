@@ -1,7 +1,7 @@
 filament/*
 build/*
 cmake-*
-.idea/
+.idea/*
 third_party/filament/*
 third_party/filament_src/*
 .vscode/*
