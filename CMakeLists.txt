@@ -11,7 +11,6 @@ set(OGRE_AVI_SAVER ${CMAKE_SOURCE_DIR}/third-party/SaveAvi)
 find_package(OGRE 1.11 REQUIRED COMPONENTS Bites RTShaderSystem)
 file(COPY ${OGRE_CONFIG_DIR}/resources.cfg DESTINATION ${CMAKE_BINARY_DIR})
 find_package(ASSIMP REQUIRED)
-find_package(raiSim REQUIRED)
 
 include_directories(${OGRE_INCLUDE_DIRS})
 include_directories(${OGRE_IMGUI_DIR}/imgui)
@@ -42,19 +41,21 @@ set(OGRE_ASSIMP_SRC
 set(RAISIM_VISUALIZER_INC_DIR include)
 
 set(RAISIM_VISUALIZER_HDR
-        include/raisim/RaiSimVisualizerOgre.hpp)
+        include/raisim/OgreVis.hpp
+        include/raisim/interfaceClasses.hpp)
 
 set(RAISIM_VISUALIZER_SRC
-        src/RaiSimVisualizerOgre.cpp)
+        src/OgreVis.cpp)
 
 include_directories(${RAISIM_VISUALIZER_HDR_DIR})
 
-add_library(raisim_visualizer ${RAISIM_VISUALIZER_SRC} ${IMGUI_SRC} ${OGRE_IMGUI_SRC} ${OGRE_ASSIMP_SRC} ${OGRE_AVI_SAVER_SRC})
+add_library(raisim_visualizer ${RAISIM_VISUALIZER_SRC} ${RAISIM_VISUALIZER_HDR} ${IMGUI_SRC} ${OGRE_IMGUI_SRC} ${OGRE_ASSIMP_SRC} ${OGRE_AVI_SAVER_SRC})
 target_link_libraries(raisim_visualizer ${ASSIMP_LIBRARIES} ${OGRE_LIBRARIES})
 target_include_directories(raisim_visualizer PUBLIC ${RAISIM_VISUALIZER_INC_DIR})
 
 add_executable(ogreTest main.cpp)
 target_link_libraries(ogreTest raisim_visualizer)
+target_include_directories(ogreTest PUBLIC)
 
 ### configure resource directory file
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/resourceDir.rg.in

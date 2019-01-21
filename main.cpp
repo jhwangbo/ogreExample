@@ -26,7 +26,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE
 -------------------------------------------------------------------------*/
 
-#include "raisim/RaiSimVisualizerOgre.hpp"
+#include <raisim/OgreVis.hpp>
 
 void imguiRenderCallBack() {
   if (ImGui::BeginMainMenuBar()) {
@@ -115,33 +115,40 @@ void imguiSetupCallback() {
 }
 
 void setupCallback() {
-  std::string file = RaiSimVisualizerOgre::getResourceDir() + "/model/monkey/monkey.obj";
-  RaiSimVisualizerOgre::loadMeshFile(file, "monkeyMesh");
-  RaiSimVisualizerOgre::loadMaterialFile("monkey_obj2.material");
+  /// add what meshes to be used
+  std::string sphereFile = raisim::OgreVis::getResourceDir() + "/model/primitives/sphere.obj";
+  std::string cubeFile = raisim::OgreVis::getResourceDir() + "/model/primitives/cube.obj";
+  std::string cylinderFile = raisim::OgreVis::getResourceDir() + "/model/primitives/cylinder.obj";
+
+  /// add textures
+  raisim::OgreVis::addResourceDirectory(raisim::OgreVis::getResourceDir() + "/texture/gravel");
+  raisim::OgreVis::loadMeshFile(sphereFile, "sphereMesh");
+  raisim::OgreVis::loadMaterialFile("gravel.material");
 
 // and finally, now that we have a named Mesh resource, we can use it
 // in our createEntity() call...
-  auto *monkey = RaiSimVisualizerOgre::getSceneManager()->createEntity("LocalMesh_Ent", "monkeyMesh");
-  monkey->getSubEntity(0)->setMaterialName("monkey");
-  monkey->getMesh()->buildTangentVectors(); // enforce that we have tangent vectors
+  auto *sphere = raisim::OgreVis::getSceneManager()->createEntity("sphereEntity", "sphereMesh");
+  sphere->getSubEntity(0)->setMaterialName("gravel");
+  sphere->getMesh()->buildTangentVectors(); // enforce that we have tangent vectors
 
-  MaterialPtr mat = MaterialManager::getSingleton().getByName("monkey");
+  MaterialPtr mat = MaterialManager::getSingleton().getByName("gravel");
   auto mParams = mat->getTechnique(0)->getPass(0)->getFragmentProgramParameters();
-  mParams->setNamedConstant("u_ScaleIBLAmbient", Vector4(Real(0.5)));
+  mParams->setNamedConstant("u_ScaleIBLAmbient", Vector4(Real(1)));
 
-  SceneNode *monkeyNode = RaiSimVisualizerOgre::getSceneManager()->getRootSceneNode()->createChildSceneNode();
-  monkeyNode->attachObject(monkey);
-  monkeyNode->setPosition(0, 0, 0);
-  RaiSimVisualizerOgre::getCameraMan()->setTarget(monkeyNode);
+  SceneNode *sphereNode = raisim::OgreVis::getSceneManager()->getRootSceneNode()->createChildSceneNode();
+  sphereNode->attachObject(sphere);
+  sphereNode->setPosition(0, 0, 0);
+  raisim::OgreVis::getCameraMan()->setTarget(sphereNode);
 }
 
 int main(int argc, char **argv) {
-  RaiSimVisualizerOgre::getSingleton()->setImguiSetupCallback(imguiSetupCallback);
-  RaiSimVisualizerOgre::getSingleton()->setImguiRenderCallback(imguiRenderCallBack);
-  RaiSimVisualizerOgre::getSingleton()->setSetUpCallback(setupCallback);
-  RaiSimVisualizerOgre::getSingleton()->initApp();
-  RaiSimVisualizerOgre::getSingleton()->renderOneFrame();
-  RaiSimVisualizerOgre::getSingleton()->closeApp();
+  raisim::OgreVis::get()->setImguiSetupCallback(imguiSetupCallback);
+  raisim::OgreVis::get()->setImguiRenderCallback(imguiRenderCallBack);
+  raisim::OgreVis::get()->setSetUpCallback(setupCallback);
+
+  raisim::OgreVis::get()->initApp();
+  raisim::OgreVis::get()->startRendering();
+  raisim::OgreVis::get()->closeApp();
 
   return 0;
 }
